@@ -1,6 +1,7 @@
 # pdfjs-multiple-getDocument
 
 Minimal working example demonstrating a question/potential issue with PDFjs.
+Hosted version: [https://silly-knuth-42fbb4.netlify.com/](https://silly-knuth-42fbb4.netlify.com/)
 
 ## Steps to Reproduce
 
