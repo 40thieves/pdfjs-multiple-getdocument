@@ -45,3 +45,10 @@ calls?
 
 If we are expected to clean up manually, then I believe the best solution would
 be to make `destroy()` async.
+
+## UPDATE
+
+Thanks to [Snuffleupagus](https://github.com/mozilla/pdf.js/issues/11166#issuecomment-533616797)
+for answering my question. Turns out that `PDFDocumentLoadingTask.destroy` is
+already asynchronous, so we should wait until this resolves before the
+subsequent `getDocument` call.
